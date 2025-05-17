@@ -101,7 +101,7 @@ function addToCart(book) {
 <template>
   <HeaderComponent @click-cart="showCart = !showCart" />
   <main v-if="showCart">
-    <CartComponent :cart="cart" @increment-book="incrementBookToCart" @decrement-book="decrementBookToCart" />
+    <CartComponent :cart="cart" @increment-book="incrementBookToCart" @decrement-book="decrementBookToCart" @close-cart="showCart = false" />
   </main>
   <main v-else>
     <hero-component />
