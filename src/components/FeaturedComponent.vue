@@ -14,7 +14,7 @@
     </div>
   </section>
 </template>
-<style scoped lang="scss">
+<style scoped>
 .featured {
   display: flex;
   padding: 3vh 8vw;

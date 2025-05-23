@@ -29,7 +29,7 @@ defineEmits(['click-cart'])
   </header>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 header nav {
   display: flex;
   justify-content: space-between;

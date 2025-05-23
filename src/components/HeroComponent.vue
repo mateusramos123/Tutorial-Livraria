@@ -18,7 +18,7 @@
       </div>
     </section>
 </template>
-<style scoped lang="scss" >
+<style scoped>
 .hero {
   display: flex;
   justify-content: space-between;
