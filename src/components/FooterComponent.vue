@@ -29,7 +29,7 @@
   </footer>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 footer {
   background-color: #27ae60;
   padding: 2vh 8vw;
